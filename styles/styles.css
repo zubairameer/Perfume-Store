@@ -111,3 +111,38 @@ padding: 20px;
     font-size: 30px;
     font-weight: 500;
 }
+
+.container-3{
+    text-align: center; 
+    margin-top: 50px;
+}
+
+.container-3 h1{
+    font-size:  50px;
+}
+
+.container-3 h2{
+    font-family: Playfair Display, serif;
+    font-weight: 100;
+}
+
+
+.container-3-services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px 60px;
+    margin-top: 30px;
+}
+
+.container-3-services div{
+    border: 1px #d2c9c154 solid;
+    padding: 30px;
+}
+
+.container-3-services img{
+    width: 20%;
+}
+
+.container-3-services *{
+    padding: 10px 0;
+}
