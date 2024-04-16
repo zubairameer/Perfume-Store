@@ -67,13 +67,47 @@ line-height: 1.7;
     grid-template-columns: 1fr 1fr;
     background-color: #e3d7d7;
 }
-.container-1 h1{
+
+.container-1 img{
+    width: 100%;
+}
+.large-text{
     font-family: Playfair Display, serif;
-    font-size: 65px;
+    font-size: 72px;
     font-weight: 400;
 
 }
 
-.container-1-text *{
+.container-text *{
 padding: 20px;
+}
+
+.container-2{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 50px;
+    margin-top: 30px;
+}
+
+.container-2 img{
+    width: 100%;
+}
+
+.container-2 button{
+    margin-left: 15px;
+}
+
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slogan *{
+    padding: 10px;
+}
+.big-text{
+    font-size: 30px;
+    font-weight: 500;
 }
