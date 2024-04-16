@@ -158,10 +158,10 @@ padding: 20px;
 
 .container-4 ul{
     display: flex;
-    gap: 25px;
+    gap: 50px;
     justify-content: center;
     font-size: 17px;
-    font-family: Playfair Display, serif;
+    font-family: Open Sans, sans-serif;;
 }
 
 .container-4 li{
@@ -172,17 +172,18 @@ padding: 20px;
     color: #3e3c3c;
 }
 
-.container-4 *{
+.container-4 h1, p, ul{
     padding: 10px;
 }
 
 .container-4-collection{
     display: grid;
+    gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    padding: 20px 60px;
 }
 
 .container-4-collection img{
    width: 100%;
-   height: 100%;
 }
